@@ -29,7 +29,7 @@ The easiest method of installation is done by downloading trellis2_bpy.zip from 
 An alternative mehtod would involve cloning this repository locally and adding the Addons directory to the Script Directories under Filepaths in Prefrences.
 
 ### Installing Required Python Modules
-A number of python modules such as torch, torchvision, pillow, and huggingface_hub are needed to run mesh generation. Expanding the Trellis2 Blender Plugin should reveal an Install Dependencies button which when pressed will start installing the modules needed. This can take some time to compleat.
+A number of python modules such as torch, torchvision, pillow, and huggingface_hub are needed to run mesh generation. Expanding the Trellis2 Blender Plugin should reveal an Install Dependencies button which when pressed will start installing the modules needed. This can take some time to complete.
 
 ### First Time Mesh Generation Run
 First download the Suzanne.png image from the Example directory on this repository then find the Trellis2 section under the Scene Pannel. Under the Load Image from File, use the file dialog to locate the Suzanne.png file and press the Load Input Image button. This action will resize the selected image to 1024x1024 pixels and use a model to remove the background. When done the now internal image will be populated to Input Image in the next section bellow.
